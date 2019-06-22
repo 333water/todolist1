@@ -3,10 +3,10 @@ window.addEventListener('load',function () {
     let prev=0;
     let type="all";
 
-    let dotolist=[{id:1,content:'端午要请假回家呢',ctime:'2019/6/6',status:false},
-        {id:2,content:'水站的作业已经交给组长了',ctime:'2019/6/7',status:true},
-        {id:3,content:'个人博客的作业也搞定了',ctime:'2019/5/31',status:true},
-        {id:4,content:'需求文档也交了',ctime:'2019/6/7',status:true},
+    let dotolist=[{id:1,content:'端午要请假回家呢',ctime:'2019年6月6日',status:false},
+        {id:2,content:'水站的作业已经交给组长了',ctime:'2019年6月7日',status:true},
+        {id:3,content:'个人博客的作业也搞定了',ctime:'2019年5月31日',status:true},
+        {id:4,content:'需求文档也交了',ctime:'2019年6月7日',status:true},
     ];
 
     let str=localStorage.getItem('dotolist');
